@@ -10,7 +10,7 @@
 //       use dep::std::ec::tecurve::affine::Curve;
 
 fn main(x : Field) -> pub Field {
-  // your code here
+  dep::std::hash::poseidon::bn254::hash_1([x])
 }
 
 ////////////////////
